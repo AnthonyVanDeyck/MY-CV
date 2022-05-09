@@ -1,6 +1,47 @@
-*
+body
 {
     background-color: aqua;
     color: black;
     font-size: 60px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+li
+{
+    list-style: none;
+}
+
+div
+{
+    border: 3px yellow;
+    border-style: ridge;
+}
+.en-tete
+{
+    grid-row-start: auto;
+    grid-column: span 3;
+    text-align: center;
+}
+
+.ecole
+{
+    text-align: center;
+}
+
+.passion
+{
+    text-align: center;
+}
+
+.competance
+{
+    text-align: center;
+}
+
+.pied_de_page
+{
+    grid-row: start 3;
+    grid-column: span 3;
+    text-align: center;
 }
